@@ -48,9 +48,9 @@ BEGIN
 	);
 
 
-	TRUNCATE TABLE bronze.erp_px_cat_g1_v2;
+	TRUNCATE TABLE bronze.erp_px_cat_g1v2;
 
-	BULK INSERT bronze.erp_px_cat_g1_v2
+	BULK INSERT bronze.erp_px_cat_g1v2
 	FROM 'C:\Users\Legion\Desktop\sql-data-warehouse-project\datasets\source_erp\PX_CAT_G1V2.csv'
 	WITH (
 		FIRSTROW = 2,
